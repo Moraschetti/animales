@@ -5,7 +5,7 @@ class Carnivoro extends Mamifero{
      super(animal,vertebrado);
     } 
     nombrar():void{
-     this.nombre = "Billy";
+     this.nombre = "Billy"; 
     }
     años():void{
      this.edad = 13;
