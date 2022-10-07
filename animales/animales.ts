@@ -15,21 +15,21 @@ export class Mamifero{
         this.vertebrado = vertebrado;
     }
     nombrar():void{
-        this.nombre = "";
+        this.nombre = ""; 
     }
-    años():void{
+    años():void{ 
         this.edad = 0;
     }
     comer():void{
         this.comida = "";  
        } 
-    getAnimales():string{
+    getAnimales():string{ 
         return this.animal;  
        } 
     setAnimales(animal:string):void{
         this.animal = animal;
        }
-    animalVertebrado():void{
+    animalVertebrado():void{ 
         if(this.vertebrado===true){
             this.vertebrado=false;
             console.log("vertebrado");
